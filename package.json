@@ -1,0 +1,13 @@
+{
+  "name": "sock-drawer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An accessible wardrobe and virtual try-on assistant",
+  "engines": { "node": ">=20.12" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  }
+}
